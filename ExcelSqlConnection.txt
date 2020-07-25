@@ -1,0 +1,8 @@
+Set cnn = CreateObject("ADODB.Connection")
+Set RS = CreateObject("ADODB.Recordset")
+
+Dim ConnectionString As String
+Dim StrQuery As String
+
+ConnectionString = "Driver=SQL Server; Server=name/addres;Database=db_name;User ID=username;Password=pass"
+cnn.Open ConnectionString
